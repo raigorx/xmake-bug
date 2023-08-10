@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "xmake",
+      "request": "launch",
+      "name": "Debug XMake target",
+      "target": "target name",
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": true
+    },
+    {
+      "name": "Debug target: target-one\r",
+      "type": "xmake",
+      "target": "target-one\r",
+      "request": "launch"
+    }
+  ]
+}
